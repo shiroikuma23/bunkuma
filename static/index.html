@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        </head>
+        <body>
+            <h1>Chess</h1>
+            <form>
+                <section>
+                    <h2>Create a new Game</h2>
+                    <button type="submit" formmethod="POST" formaction="/chess">
+                        New Game
+                        </button>
+                    </section>
+                    <section>
+                        <h2>Join an existing game</h2>
+                        <input type="text" name="gameId" size="30" placeholder="Game id here">
+                        <button type="submit" formmethod="GET" formaction="/chess">
+                            Join Game
+                        </button>
+                    </section>
+            </form>
+
+        </body>
+</html>
